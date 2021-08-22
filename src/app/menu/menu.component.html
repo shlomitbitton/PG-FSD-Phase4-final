@@ -3,12 +3,8 @@
       <div><a href="" class="navbar-brand">Online tests</a></div>
 
       <ul class="navbar-nav">
-         <li><a *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/home" class="nav-link">Home</a></li>
-         <li><a *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/quiz" class="nav-link">Quiz</a></li>
-         <li><a *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/review" class="nav-link">Review and display result</a></li>
-         <li><a *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/result" class="nav-link">Results</a></li>
+         <li><a *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/quiz" class="nav-link">Home</a></li>
          <li><a *ngIf="hardcodedAuthenticationService.isUserAdmin()" routerLink="/admin" class="nav-link">Admin</a></li>
-         <!--   <li><a *ngIf="hardcodedAuthenticationService.isUserLoggedIn()" routerLink="/customers" class="nav-link">Customers</a></li> -->
       </ul>
 
       <ul class="navbar-nav navbar-collapse justify-content-end">
