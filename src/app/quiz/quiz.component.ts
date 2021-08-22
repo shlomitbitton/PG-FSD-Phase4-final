@@ -37,13 +37,11 @@ import { Option, Question, Quiz, QuizConfig } from '../models/index';
     timer: any = null;
     ellapsedTime = '00:00';
     duration = '';
-    startTime = new Date;
+    // startTime = new Date;
+    startTime!: Date;
+    endTime!: Date;
  
-    constructor(
-      private quizService: QuizService,
-      startTime: Date,
-      endTime: Date
-      ) {}
+    constructor(private quizService: QuizService) {}
 
   ngOnInit(): void {
     this.quizes = this.quizService.getAll();
