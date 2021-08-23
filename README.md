@@ -38,3 +38,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 sudo npm install -g @angular/cli
+
+Regular user login: username passowrd: 
+admin user login: admin password:
+Admin login enables the option to upload a json file for a new test.
