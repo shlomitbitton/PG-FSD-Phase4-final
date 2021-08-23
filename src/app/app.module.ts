@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { ReviewComponent } from './review/review.component';
-import { ResultComponent } from './result/result.component';
 import { LoginComponent } from './login/login.component';
 import { LogoutComponent } from './logout/logout.component';
 import { ErrorComponent } from './error/error.component';
@@ -20,7 +19,6 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     QuizComponent,
     ReviewComponent,
-    ResultComponent,
     LoginComponent,
     LogoutComponent,
     ErrorComponent,
