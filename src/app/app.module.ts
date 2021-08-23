@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { ReviewComponent } from './review/review.component';
 import { ResultComponent } from './result/result.component';
-import { UserComponent } from './user/user.component';
 import { LoginComponent } from './login/login.component';
 import { LogoutComponent } from './logout/logout.component';
 import { ErrorComponent } from './error/error.component';
@@ -22,7 +21,6 @@ import { HttpClientModule } from '@angular/common/http';
     QuizComponent,
     ReviewComponent,
     ResultComponent,
-    UserComponent,
     LoginComponent,
     LogoutComponent,
     ErrorComponent,
